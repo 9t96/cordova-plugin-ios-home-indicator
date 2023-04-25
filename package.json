@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-ios-home-indicator",
+  "version": "1.0.0",
+  "description": "Hides or shows IOS home indicator",
+  "cordova": {
+    "id": "cordova-plugin-ios-home-indicator",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9t96/cordova-plugin-ios-home-indicator.git"
+  },
+  "keywords": [
+    "cordova",
+    "ios",
+    "home",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "indicator"
+  ],
+  "author": "Claudio Manzanares",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/9t96/cordova-plugin-ios-home-indicator/issues"
+  },
+  "homepage": "https://github.com/9t96/cordova-plugin-ios-home-indicator#readme"
+}
