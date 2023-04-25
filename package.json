@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-ios-home-indicator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hides or shows IOS home indicator",
   "cordova": {
     "id": "cordova-plugin-ios-home-indicator",
