@@ -1,7 +1,3 @@
----
-title: Home Indicator
-description: Hides or shows the iOS home indicator
----
 <!--
 # license: Licensed to the Apache Software Foundation (ASF) under one
 #         or more contributor license agreements.  See the NOTICE file
