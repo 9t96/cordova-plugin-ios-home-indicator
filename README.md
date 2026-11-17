@@ -1,6 +1,6 @@
 ---
 title: Home Indicator
-description: Hides and show IOS home indicator
+description: Hides or shows the iOS home indicator
 ---
 <!--
 # license: Licensed to the Apache Software Foundation (ASF) under one
@@ -23,14 +23,17 @@ description: Hides and show IOS home indicator
 
 # cordova-plugin-ios-home-indicator
 
-This plugin allows to manually show or hide home indicator on IOS
+This plugin allows you to manually show or hide the home indicator on iOS.
 
 ## Installation
 
     cordova plugin add cordova-plugin-ios-home-indicator
 
 ### Usage
-```
+
+Call these methods after Cordova's `deviceready` event.
+
+```javascript
 // Hide the home indicator
 
 HomeIndicator.hideHomeIndicator(function() {
@@ -48,8 +51,11 @@ HomeIndicator.showHomeIndicator(function() {
 });
 ```
 
-or could use `window.HomeIndicator`
+You can also access the plugin as `window.HomeIndicator`.
 
 ### Supported Platforms
 
-- iOS
+- iOS 11 or later on devices with a home indicator.
+
+Hiding requests iOS to automatically hide the indicator; iOS controls when it
+disappears and may show it again after user interaction.

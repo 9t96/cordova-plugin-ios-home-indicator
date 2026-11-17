@@ -18,10 +18,10 @@ BOOL prefersHidden = NO;
 {
     CDVPluginResult* pluginResult = nil;
     CDVViewController* vc = (CDVViewController*)self.viewController;
-    prefersHidden = YES;
+    prefersHidden = newValue;
     if (@available(iOS 11.0, *)) {
         [vc setNeedsUpdateOfHomeIndicatorAutoHidden];
-        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:@"Home indicator hidden"];
+        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:newValue ? @"Home indicator hidden" : @"Home indicator shown"];
     } else {
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:@"Home indicator not supported"];
     }

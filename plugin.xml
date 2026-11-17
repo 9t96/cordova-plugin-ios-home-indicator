@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="cordova-plugin-ios-home-indicator" version="1.0.0">
+    id="cordova-plugin-ios-home-indicator" version="1.0.2">
     <name>Home Indicator</name>
-    <description>Hides or shows IOS home indicator</description>
-    <license>Apache 2.0</license>
+    <description>Hides or shows the iOS home indicator</description>
+    <license>Apache-2.0</license>
     <keywords>cordova,ios,home</keywords>
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
@@ -19,4 +19,3 @@
         <clobbers target="window.HomeIndicator" />
     </js-module>
 </plugin>
-
