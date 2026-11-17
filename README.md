@@ -19,6 +19,8 @@
 
 # cordova-plugin-ios-home-indicator
 
+[![npm version](https://img.shields.io/npm/v/cordova-plugin-ios-home-indicator?style=for-the-badge&logo=npm&logoColor=white&labelColor=24292f&color=cb3837)](https://www.npmjs.com/package/cordova-plugin-ios-home-indicator)
+
 This plugin allows you to manually show or hide the home indicator on iOS.
 
 ## Installation
